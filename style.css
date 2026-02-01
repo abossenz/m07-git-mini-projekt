@@ -1,0 +1,117 @@
+/* **************************************************
+   GLOBAL LAYOUT – NICHT ANFASSEN!!!
+   ************************************************** */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+    "nav nav"
+    "aside main"
+    "jennifer main"
+    "matthias miro"
+    "footer footer";
+}
+
+/* Grid-Zuweisungen */
+#vaska {
+  grid-area: nav;
+}
+#jim {
+  grid-area: aside;
+}
+#judith {
+  grid-area: main;
+}
+#jennifer {
+  grid-area: jennifer;
+}
+#matthias {
+  grid-area: matthias;
+}
+#miro {
+  grid-area: miro;
+}
+#timo {
+  grid-area: footer;
+}
+
+/* Einheitliche Grundboxen */
+nav,
+aside,
+main,
+section,
+footer {
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+}
+/* ****************************************************
+   *************** GLOBAL LAYOUT – ENDE ***************
+   ************************************************** */
+
+/* ==================================================
+   VASKA – NAVIGATION - BEGIN
+   ================================================== */
+#vaska {
+  background: #263238;
+  color: #fff;
+}
+#vaska a {
+  color: #fff;
+  text-decoration: none;
+}
+/* VASKA – NAVIGATION - ENDE ------------------------ */
+
+/* ==================================================
+   JIM – ASIDE - BEGIN
+   ================================================== */
+#jim {
+  background: #fff3e0;
+}
+/* JIM – ASIDE - ENDE ------------------------------- */
+
+/* ==================================================
+   JUDITH – MAIN - BEGIN
+   ================================================== */
+#judith {
+  background: #f4f4f4;
+}
+/* JUDITH - MAIN - ENDE ------------------------------ */
+
+/* ==================================================
+   JENNIFER – INFOBOX - BEGIN
+   ================================================== */
+#jennifer {
+  background: #eef3ff;
+}
+/* JENNIFER - INFOBOX - ENDE ------------------------ */
+
+/* ==================================================
+   MATTHIAS – INTERAKTION - BEGIN
+   ================================================== */
+#matthias {
+  background: #e8f5e9;
+}
+/* MATTHIAS – INTERAKTION - ENDE -------------------- */
+
+/* ==================================================
+   MIRO – ZUSATZ
+   ================================================== */
+#miro {
+  background: #fce4ec;
+}
+/* MIRO - ZUSATZ - ENDE ----------------------------- */
+
+/* ==================================================
+   TIMO – FOOTER
+   ================================================== */
+#timo {
+  background: #ddd;
+  text-align: center;
+}
+/* TIMO – FOOTER - ENDE ----------------------------- */
