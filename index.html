@@ -1,98 +1,111 @@
 <!doctype html>
 <html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>M07 - Gemeinsames Mini-Projekt mit Git</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>M07 - Gemeinsames Mini-Projekt mit Git</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <div class="layout">
-    <!-- =========================================
+  <body>
+    <div class="layout">
+      <!-- =========================================
          VASKA – NAVIGATION (systemrelevant - nur Ankerlinks)
          Wie heissen die Bereiche der Seite?
          ========================================= -->
-    <nav id="vaska">
-      <h2>Navigation</h2>
-      <ul>
-        <li><a href="#">Start</a></li>
-        <li><a href="#">Über uns</a></li>
-        <li><a href="#">Kontakt</a></li>
-      </ul>
-    </nav>
-    <!-- VASKA - ENDE ============================ -->
+      <nav id="vaska">
+        <h2>Navigation</h2>
+        <ul>
+          <li><a href="#">Start</a></li>
+          <li><a href="#">Über uns</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+      <!-- VASKA - ENDE ============================ -->
 
-    <!-- =========================================
+      <!-- =========================================
          JIM – ASIDE / WERBUNG
          ========================================= -->
-    <aside id="jim">
-      <h2>Hinweis</h2>
-      <p>Hier geht es um unser erstes Projekt über Github.
+      <aside id="jim">
+        <h2>Hinweis</h2>
+        <p>Hier geht es um unser erstes Projekt über Github.
         Du willst mit einem Kumpel gemeinsam an einem Projekt arbeiten, aber ihr wisst nicht wie das geht?
         Keine Sorge, hier werdet ihr es herausfinden.</p>
-    </aside>
-    <!-- JIM - ENDE ============================== -->
+      </aside>
+      <!-- JIM - ENDE ============================== -->
 
-    <!-- =========================================
+      <!-- =========================================
          JUDITH – MAIN TEXT
          ========================================= -->
-    <main id="judith">
-      <h2>Hauptinhalt - Thema der Website:</h2>
-      <p>„Eine einfache Infoseite zu einem gemeinsamen Projekt“</p>
-      <p>Worum geht es auf dieser Seite?</p>
-      <p>Klar strukturiert, gut lesbar.</p>
-    </main>
-    <!-- JUDITH - ENDE =========================== -->
+      <main id="judith">
+        <h2>Unser erstes Git-Projekt</h2>
+        <h3>Eine einfache Infoseite zu einem gemeinsamen Projekt</h3>
+        <p>Diese Seite dient als Übungsfeld für ein gemeinsames Arbeiten mithilfe von Git, als auch zur Demonstration unserer Zusammenarbeit. Wir sind sieben Personen, allerdings müssen möglicherweise bestimmte Bereiche von anderen Teammitgliedern übernommen werden.</p>
+        <p>Jeder im Team hat einen eigenen Breich, der bearbeitet werden darf. Dieser bereich soll, der Einfachheit halber, nur mit HTML und CSS bearbeitet werden. Der Fokus ist immerhin der Einsatz von Git. 
+          Im Interaktionsfeld gibt es eine Ausnahme für JavaScript.
+          Jedes Teammitglied soll regelmässig seine ge-addeten Änderungen committen und pushen. Es sollte mindestens am Anfang jeder Schicht gepullt werden, um zu sehen, wie das Team vorankommt und um sich anpassen zu können. 
+          Ausserdem ist es wichtig, dass alle am eigenen Bereich arbeiten. So gibt es kein Chaos.</p>
+      </main>
+      <!-- JUDITH - ENDE =========================== -->
 
-    <!-- =========================================
+      <!-- =========================================
          JENNIFER – INFOBOX 
          ========================================= -->
-    <section id="jennifer">
-      <h2>Info</h2>
-      <p>Eine kurze Zusatzinfo in 2-3 Sätzen</p>
-    </section>
-    <!-- JENNIFER - ENDE ========================= -->
+      <section id="jennifer">
+        <h2>Info - Ein Test</h2>
+        <p>Eine kurze Zusatzinfo in 2-3 Sätzen</p>
+      </section>
+      <!-- JENNIFER - ENDE ========================= -->
 
-    <!-- =========================================
+      <!-- =========================================
          MATTHIAS – INTERAKTION (JS erlaubt, nur hier)
          ========================================= -->
-    <section id="matthias">
-      <h2>Interaktion</h2>
-      <p>
-        Kleine Interaktion nur in diesem Bereich. Z.B. Button -> Info anzeigen
-      </p>
-      <button id="matthiasBtn">Klick mich</button>
-      <p id="matthiasOutput">Noch nichts passiert.</p>
-    </section>
-    <!-- MATTHIAS - ENDE ========================= -->
+      <section id="matthias">
+        <h2>Interaktion</h2>
+        <ol id="liste">
+          <li>Bild betrachten</li>
+            <img id="jsRules" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png"/>
+          <li>JavaScript Tutorial</li>  
+            <p id="link"><a href="https://www.w3schools.com/js/default.asp" target="_blank">w3schools</a></p>
+          <li>Buttons ausprobieren</li>  
+            <button id="matthiasBtn">Ufe</button>
+            <button id="matthiasBackBtn">Abe</button>
+            <button id="resetBtn">Null</button>
+            <p id="matthiasOutput"></p>
+          <li>Datum und Uhrzeit anzeigen</li>  
+            <button id="matthiasTimeBtn">Ziit ahzeige</button>
+            <button id="matthiasDateBtn">Datum ahzeige</button>
+            <p id="matthiasTimeOutput"></p>
+          <li>Noch ein Bild</li>
+            <img id="jsRules" src="https://cdn-icons-png.flaticon.com/512/5246/5246290.png"/>
+        </ol>
+      </section>
+      <!-- MATTHIAS - ENDE ========================= -->
 
-    <!-- =========================================
+      <!-- =========================================
          MIRO – ZUSATZSEKTION
          ========================================= -->
-    <section id="miro">
-      <h2>Zusatz</h2>
-      <p>Ergänzende Punkte / Liste</p>
-      <ul>
-        <li>Punkt A</li>
-        <li>Punkt B</li>
-        <li>Punkt C</li>
-      </ul>
-    </section>
-    <!-- MIRO - ENDE ============================= -->
+      <section id="miro">
+        <h2>Zusatz</h2>
+        <p>Ergänzende Punkte / Liste</p>
+        <ul>
+          <li>Punkt A</li>
+          <li>Punkt B</li>
+          <li>Punkt C</li>
+        </ul>
+      </section>
+      <!-- MIRO - ENDE ============================= -->
 
-    <!-- =========================================
+      <!-- =========================================
          TIMO – FOOTER
          ========================================= -->
-    <footer id="timo">
-      <p>Rechtliches / Abschluss / Hinweis</p>
-      <p>© 2026 - Mini-Projekt</p>
-    </footer>
-    <!-- TIMO - ENDE ============================= -->
-  </div>
+      <footer id="timo">
+        <p>Rechtliches / Abschluss / Hinweis</p>
+        <p>© 2026 - Mini-Projekt</p>
+      </footer>
+      <!-- TIMO - ENDE ============================= -->
+    </div>
 
-  <!-- Nur Matthias darf JS verwenden – lokal! -->
-  <script src="script.js"></script>
-</body>
-
+    <!-- Nur Matthias darf JS verwenden – lokal! -->
+    <script src="script.js"></script>
+  </body>
 </html>
