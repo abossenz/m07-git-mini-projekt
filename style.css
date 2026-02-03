@@ -80,7 +80,18 @@ footer {
    ================================================== */
 #judith {
   background: #f4f4f4;
+  border: black 2px solid;
+  border-radius: 10px;
 }
+
+#judith h2 {
+margin-bottom: 0px;
+}
+
+#judith h3 {
+  margin-top: 3px;
+}
+
 /* JUDITH - MAIN - ENDE ------------------------------ */
 
 /* ==================================================
