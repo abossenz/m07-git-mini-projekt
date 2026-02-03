@@ -96,6 +96,15 @@ footer {
    ================================================== */
 #matthias {
   background: #e8f5e9;
+  border: #263238 2px solid;
+  border-radius: 10px;
+}
+#matthias button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #263238;
+  color: white;
 }
 /* MATTHIAS – INTERAKTION - ENDE -------------------- */
 
