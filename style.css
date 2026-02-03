@@ -109,6 +109,17 @@ footer {
 
 #matthias #jsRules {
   width: 50%;
+  padding-bottom: 10px;
+}
+
+#matthias #link {
+  margin-top: 0px;
+  color: #263238;
+}
+
+#matthias #liste li {
+  padding-bottom: 10px;
+  color: #03960f;
 }
 /* MATTHIAS – INTERAKTION - ENDE -------------------- */
 

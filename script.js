@@ -5,6 +5,7 @@ const out = document.getElementById("matthiasOutput");
 const timeBtn = document.getElementById("matthiasTimeBtn");
 const timeOut = document.getElementById("matthiasTimeOutput");
 const resetBtn = document.getElementById("resetBtn");
+const dateBtn = document.getElementById("matthiasDateBtn");
 
 let count = 0;
 
@@ -26,12 +27,17 @@ backbtn.addEventListener("click", () => {
   }
 });
 
+resetBtn.addEventListener("click", () => {
+  count = 0;
+  out.textContent = "Back to zero";
+});
+
 timeBtn.addEventListener("click", () => {
   const now = new Date();
   timeOut.textContent = "Aktuelle Uhrzeit: " + now.toLocaleTimeString();
 });
 
-resetBtn.addEventListener("click", () => {
-  count = 0;
-  out.textContent = "Reset Button wurde geklickt";
+dateBtn.addEventListener("click", () => {
+  const now = new Date();
+  timeOut.textContent = "Aktuelles Datum: " + now.toLocaleDateString();
 });
