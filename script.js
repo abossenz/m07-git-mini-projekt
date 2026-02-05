@@ -12,32 +12,32 @@ let count = 0;
 btn.addEventListener("click", () => {
   count++;
   if (count === 0) {
-    out.textContent = "Back to zero";
+    out.textContent = "Zrugg uf null";
   } else {
-    out.textContent = "Button wurde " + count + " mal geklickt";
+    out.textContent = "Dä Chnopf isch " + count + " mal ufe gange";
   }
 });
 
 backbtn.addEventListener("click", () => {
   count--;
   if (count === 0) {
-    out.textContent = "Back to zero";
+    out.textContent = "Zrugg uf null";
   } else {
-    out.textContent = "Button wurde " + count + " mal geklickt";
+    out.textContent = "Dä Chnopf isch " + count + " mal abe gange";
   }
 });
 
 resetBtn.addEventListener("click", () => {
   count = 0;
-  out.textContent = "Back to zero";
+  out.textContent = "Zrugg uf null";
 });
 
 timeBtn.addEventListener("click", () => {
   const now = new Date();
-  timeOut.textContent = "Aktuelle Uhrzeit: " + now.toLocaleTimeString();
+  timeOut.textContent = "Aktuelli Uhrziit: " + now.toLocaleTimeString();
 });
 
 dateBtn.addEventListener("click", () => {
   const now = new Date();
-  timeOut.textContent = "Aktuelles Datum: " + now.toLocaleDateString();
+  timeOut.textContent = "Aktuells Datum: " + now.toLocaleDateString();
 });
