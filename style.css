@@ -116,6 +116,10 @@ margin-bottom: 0px;
   margin-top: 3px;
 }
 
+#judith #abs {
+ max-width: 70%;
+}
+
 #judith #bild {
   width: 13%;
   margin-left: 42%;
