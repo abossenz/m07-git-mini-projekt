@@ -58,19 +58,21 @@ footer {
    VASKA – NAVIGATION - BEGIN
    ================================================== */
 #vaska {
-  background-color: #263238;
+  background-color: #010144;
   color: white;
-  border: 2px solid #1c2529;
-  border-radius: 8px;
+  border: 2px solid #e91823;
+  border-radius: 10px;
 }
 
 #vaska h2 {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 #vaska ul {
   line-height: 1.8;
+  font-size: 1.2rem;
 }
 
 #vaska a {
