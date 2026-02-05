@@ -26,6 +26,7 @@ body {
   grid-area: aside;
   border-radius: 8px;
   border: 1px solid #e0b080;
+  color: #89cff0;
 }
 #judith {
   grid-area: main;
