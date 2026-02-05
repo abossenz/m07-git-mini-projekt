@@ -96,9 +96,13 @@ footer {
    JUDITH – MAIN - BEGIN
    ================================================== */
 #judith {
-  background: #f4f4f4;
-  border: black 2px solid;
+  background: #fffce2;
+  border: #000000 2px solid;
   border-radius: 10px;
+}
+
+#judith p {
+  color: #a09004;
 }
 
 #judith h2 {
